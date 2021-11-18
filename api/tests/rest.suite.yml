@@ -1,0 +1,9 @@
+actor: RestTester
+modules:
+    enabled:
+        - REST:
+              url: /v1
+              depends: Yii2
+        - \api\tests\Helper\Rest
+    config:
+        - Yii2

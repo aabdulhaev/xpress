@@ -1,0 +1,7 @@
+suite_namespace: unit\models
+actor: UnitTester
+bootstrap: false
+modules:
+    enabled:
+        - Yii2:
+            part: [email, fixtures]
